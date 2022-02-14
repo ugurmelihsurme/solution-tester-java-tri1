@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6442-0fd3-4c64-b4b5-d8fa0aed2f2c" name="Changes" comment="" />
+    <list default="true" id="56de6442-0fd3-4c64-b4b5-d8fa0aed2f2c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="br_AliSinanÜlgen" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643385428258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fist commit">
+      <created>1644845691617</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644845691617</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,9 +119,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fist commit&#10;69 point pass" />
-    <MESSAGE value="fist commit" />
     <MESSAGE value="49 point fail." />
     <MESSAGE value="fist commit&#10;58 point (fail)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fist commit&#10;58 point (fail)" />
+    <MESSAGE value="fist commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fist commit" />
   </component>
 </project>
