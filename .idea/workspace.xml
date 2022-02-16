@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6442-0fd3-4c64-b4b5-d8fa0aed2f2c" name="Changes" comment="" />
+    <list default="true" id="56de6442-0fd3-4c64-b4b5-d8fa0aed2f2c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644940553331</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first commit">
+      <created>1644993215804</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644993215804</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,8 +150,8 @@
     <MESSAGE value="fist commit&#10;58 point (fail)" />
     <MESSAGE value="fist commit" />
     <MESSAGE value="12 point fail." />
-    <MESSAGE value="first commit" />
     <MESSAGE value="70 point pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="70 point pass" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
