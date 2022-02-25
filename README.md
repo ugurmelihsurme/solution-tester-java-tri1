@@ -1,4 +1,4 @@
-Onur Erdoğan ->69 puan
+Okan Erdoğan ->69 puan
 
 MaxNumber -> 48
 
