@@ -1,0 +1,32 @@
+const validator = function (nums = [], k = 1, {
+  arrayLengthMinValue = 1,
+  arrayLengthMaxValue = Math.pow(10, 5),
+  arrayItemLimitValue = Math.pow(10, 4),
+  kMinValue = 1
+} = {}) {
+  const arrayLengthValidationState = arrayLengthMinValue <= nums.length && nums.length <= arrayLengthMaxValue;
+  if (!arrayLengthValidationState) throw Error("Array size validation error");
+  const arrayItemLimitValueValidationState = nums.every(item => (-arrayItemLimitValue) <= item && item <= arrayItemLimitValue);
+  if (!arrayItemLimitValueValidationState) throw Error("Boundary validation error of array elements");
+  const kValueValidationState = kMinValue <= k && k <= nums.length;
+  if (!kValueValidationState) throw Error("Window value validation error");
+}
+
+/** 
+* @param { number[] } nums
+* @param { number } k
+* @return { number[]}
+*/
+const maxSlidingWindow = function (nums, k) {
+  validator(nums, k);
+  let startIndex = 0, endIndex = k - 1, result = [];
+  while (endIndex < nums.length) {
+      const window = nums.slice(startIndex, endIndex + 1);
+      const max = Math.max(...window);
+      result.push(max);
+      startIndex++; endIndex++;
+  }
+  return result;
+}
+console.log(maxSlidingWindow( [1], 1));
+console.log(maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3));

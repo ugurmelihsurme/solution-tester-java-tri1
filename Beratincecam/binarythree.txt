@@ -1,0 +1,76 @@
+ 
+
+// recursivetry
+// last=[]
+// var i=0;
+// var marker=0;
+// function connect(arr,i){
+    
+//     last.push(arr.slice(marker,marker+2**i))
+//     marker=2**i;
+  
+//     last.push("#")
+//     i+=1
+//     if(marker>=arr.length){return last;} 
+//     else {
+//         asd(arr, i);
+//     }
+     
+// } 
+// array=[5,1,6,3,2,7,null,9,10,11,12,13]
+// console.log(JSON.stringify(connect(array,i)))
+ 
+
+ 
+ // Definition for a Node.
+ function Node(val, left, right, next) {
+    this.val = val === undefined ? null : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+    this.next = next === undefined ? null : next;
+ };
+var last=[]
+const connect = (frontier) => {
+    var row = []  
+    var k=1;
+    if (!frontier) return null;
+    
+    else  
+    if (frontier.length<6000 && Math.min(...frontier)>-100 &&  Math.max(...frontier)<100) {  
+      frontier.forEach((node, index) => {
+          node=new Node();
+          if(index===0 && !null){
+            node.next = null 
+            node.val=frontier[0];
+            row.push(node.val) 
+            row.push('#') 
+            return;
+          }
+          if (node.next===null) { 
+            node.next = frontier[index]  
+          if(!index%2===0 && node.next!==null){
+            node.left=node.next
+            row.push(node.left)  
+            node.next=null;
+          }
+          else if(index%2===0 && node.next!==null) { 
+            node.right=node.next
+            row.push(node.right)
+            node.next=null;
+          }
+
+          }  
+         
+      }) 
+      for (let index = 4; index < row.length; index+=2**k+1){ 
+        row.splice(index, 0, "#");
+        k=k+1; 
+      }
+      row.push('#') 
+    }
+    else throw Error("The number of nodes in the tree is not in the range of 0 to 6000, or Node value is not between -100 and 100.");
+  return row; 
+}
+
+
+  console.log(connect( [1,2,3,4,5,null,7]))

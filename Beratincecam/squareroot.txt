@@ -1,0 +1,26 @@
+/**
+* @param {number} x
+* @return {number}
+*/
+var mySqrt = function (x) {
+  var square = 1,
+    i = 0;
+ 
+    if (x >> 0 < 0) throw Error("is not 32-bit range");
+    if (x === "") throw Error("is empty"); 
+    if (isNaN(x)) throw Error("is not a number");
+    if (x === 0 || x === 1) return x;
+    while (true) {
+      i = i + 1;
+
+      square = parseInt((x / square + square) / 2);
+      if (i === x + 1) break;
+    }
+    return square;
+   
+};
+
+let x = 4;
+let y = 8;
+console.log(mySqrt(x));
+console.log(mySqrt(y));
