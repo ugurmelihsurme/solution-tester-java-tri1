@@ -1,0 +1,124 @@
+// soru 1-----------
+
+function arrayMax(array) {
+  var index = array.length,
+    max = -Infinity;
+  while (index--) {
+    if (array[index] > max) {
+      max = array[index];
+    }
+  }
+
+  return max;
+}
+
+function arraySlice(array, firstIndex, LastIndex) {
+  if (
+    firstIndex < 0 ||
+    LastIndex < 0 ||
+    firstIndex > LastIndex ||
+    LastIndex > array.length ) {
+    return;}
+    const newArray=[]
+
+    for(let index = firstIndex; index<LastIndex;index++){
+        newArray.push(array[index]);
+    }
+  return newArray;
+}
+
+var maxSlidingWindow = function (nums, k) {
+  const array = [];
+  if (nums.length === 0) return array;
+  if (nums.length < k) {
+    array.push(arrayMax(nums));
+    return array;
+  }
+  for (let i = 0; i < nums.length; i++) {
+    if (nums.length - i < k) return array;
+    const dizi = arraySlice(nums, i, k + i);
+    array.push(arrayMax(dizi));
+  }
+  return array;
+};
+var nums =  [1,3,-1,-3,5,3,6,7];
+var k = 3;
+
+console.log("maxSlidingWindow", maxSlidingWindow(nums, k) );
+
+
+
+// soru 2-----------------
+
+class Node {
+    constructor(val, left, right, next) {
+        this.val = val === undefined ? null : val;
+        this.left = left === undefined ? null : left;
+        this.right = right === undefined ? null : right;
+        this.next = next === undefined ? null : next;
+    }
+}
+
+var connect = function(root){
+    if(root === null){
+        return root;
+    }
+   let array = [root];
+    while(array.length > 0) {
+        let curr = [];
+        let arrayLength = array.length;
+        for (let i = 0; i < arrayLength; i++) {
+            let node = array.shift();
+            curr.push(node.val);
+            if(node.left) 
+                array.push(node.left);
+            if(node.right) 
+                array.push(node.right);
+            if( i < arrayLength - 1 ) 
+               node.next = array[0];
+        }
+    }
+
+    return root;
+}
+
+var root = new Node(1);
+root.left = new Node(2);
+root.right = new Node(3);
+root.left.left = new Node(4);
+root.left.right = new Node(5);
+root.right.left = new Node(null);
+root.right.right = new Node(7);
+console.log("connect", connect(root));
+
+
+
+// soru 3----------
+
+function absoluteValue (number1, number2){
+    let result =0;
+    if(number1>number2){
+        result = number1-number2;
+    }else{
+        result = number2 - number1;
+    }
+    return result;
+}
+
+const mySqrt = function(x){
+    if(x === 0) return 0;
+    let number = x;
+    let root;
+
+    while(true){
+        root = 0.5 * (number+(x/number));
+        if(absoluteValue(root, number)<0.0001){
+            break;
+        }
+        number=root;
+    }
+    return parseInt(root, 10);
+}
+console.log("sqrt",mySqrt(8))
+
+
