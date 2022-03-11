@@ -1,49 +1,41 @@
-
 /*
-SORU1: Penceredeki en büyük değeri bulma
+SORU1: WINDOW
 Rabia Kanık
  */
 
+import java.util.Arrays;
+import java.util.PriorityQueue;
+
 //Arayüz
 public interface MaxNumberInterface {
-   public int[] getSolution(int[] nums, int k);
+    public int[] getSolution(int[] nums, int k);
 }
 
 //Çözüm Algoritması
 class Solution implements MaxNumberInterface{
-   public int[] getSolution(int nums[], int k)
+    public int[] getSolution(int nums[], int k)
     {
-        int j, max;
-        for (int i = 0; i <= nums.length - k; i++) {
-
-            max = nums[i];
-            for (j = 1; j < k; j++) {
-                if (nums[i + j] > max)
-                    max = nums[i + j];
-            }
-            System.out.print(max + " ");
+        if (k <= 0)
+            return new int[0];
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        for (int i = 0; i < k - 1; i++) {
+            queue.add(-nums[i]);
         }
-        return nums;
+        int[] max = new int[nums.length - k + 1];
+        for (int i = 0, j = k - 1; j < nums.length; i++, j++) {
+            queue.add(-nums[j]);
+            max[i] = -queue.peek();
+            queue.remove(-nums[j - k + 1]);
+        }
+        return max;
     }
 }
-
 class Main{
     public static void main(String args[])
     {
-        //case1:
-        int nums[] = { -10, -1200, 3, -4, 5, -46, 7, 8, 9, 10,20,30,40,50,60 };
-
-        //case2:
-        //int nums[] = {1};
-
-        int k = 3;
-
         MaxNumberInterface m1= new Solution();
-        m1.getSolution(nums,k);
-
-     }
+        int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
+        int k = 3;
+        System.out.print(Arrays.toString(m1.getSolution(nums,k)));
+    }
 }
-
-
-
-
