@@ -77,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646835961182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix question 1.">
+      <created>1646988570034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646988570034</updated>
+    </task>
+    <task id="LOCAL-00008" summary="90 point pass.">
+      <created>1646988621288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646988621288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +110,7 @@
     <MESSAGE value="84 point pass." />
     <MESSAGE value="first commit" />
     <MESSAGE value="40 point fail." />
+    <MESSAGE value="Fix question 1." />
     <MESSAGE value="90 point pass." />
     <option name="LAST_COMMIT_MESSAGE" value="90 point pass." />
   </component>
