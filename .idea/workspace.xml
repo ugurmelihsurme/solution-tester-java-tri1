@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4143121d-2649-4ad2-8e51-145c9750f9e6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="br_HakanToprak" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="263mJKtTphu6gziMVRMKvxTlOp1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4143121d-2649-4ad2-8e51-145c9750f9e6" name="Changes" comment="" />
+      <created>1646660624556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646660624556</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1646662134351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646662134351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="84 point pass.">
+      <created>1646664627083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646664627083</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1646813032801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646813032801</updated>
+    </task>
+    <task id="LOCAL-00004" summary="90 point pass.">
+      <created>1646813564861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646813564861</updated>
+    </task>
+    <task id="LOCAL-00005" summary="40 point fail.">
+      <created>1646834427791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646834427791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="90 point pass.">
+      <created>1646835961182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646835961182</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix question 1.">
+      <created>1646988570034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646988570034</updated>
+    </task>
+    <task id="LOCAL-00008" summary="90 point pass.">
+      <created>1646988621288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646988621288</updated>
+    </task>
+    <task id="LOCAL-00009" summary="90 point pass.">
+      <created>1646988712080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646988712080</updated>
+    </task>
+    <task id="LOCAL-00010" summary="90 point pass.">
+      <created>1647000165928</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647000165928</updated>
+    </task>
+    <task id="LOCAL-00011" summary="60 point pass.">
+      <created>1647000189122</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647000189122</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="84 point pass." />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="40 point fail." />
+    <MESSAGE value="Fix question 1." />
+    <MESSAGE value="90 point pass." />
+    <MESSAGE value="60 point pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="60 point pass." />
+  </component>
+</project>
